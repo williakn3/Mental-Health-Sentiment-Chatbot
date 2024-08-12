@@ -37,7 +37,7 @@ Gradio
 
 Data Preprocessing:
 
-ating an interactive user interface where users can input their statements and receive a response from the chatbot which will provide suggestions on how to manage any mental health issues.
+Creating an interactive user interface where users can input their statements and receive a response from the chatbot which will provide suggestions on how to manage any mental health issues.
 Preprocessing
 The dataset has 53403 rows with columns containing a statement and the mental health status associated with the statement. It contained 362 rows where the statement was null. After dropping rows with null values, the total number of entries is 52681. Each statement was analyzed with the Sentiment Intensity Analyzer from VADER Sentiment. The analyzer determines whether a statement is positive, negative, or neutral in sentiment. Two new columns were added that show the sentiment and the polarity score associated with the statement. The status column was set as the target variable and the data was split into training and testing data. The test size was 25% for y_status and 30% for y_sentiment.
 

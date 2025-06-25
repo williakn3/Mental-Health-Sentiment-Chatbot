@@ -1,0 +1,8 @@
+pandas
+matplotlib
+vaderSentiment
+scikit-learn
+python-dotenv
+langchain
+langchain-openai
+gradio
